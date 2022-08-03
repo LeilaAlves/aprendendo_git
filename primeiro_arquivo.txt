@@ -1,0 +1,39 @@
+>>> Escreva nesse arquivo um resumo do que aprendeu sobre o Git e seus principais comandos.
+
+Git é um gerenciador de versionamento de código em nuvem. Ele permite que vários integrantes de um time trabalhem em branches separadas, sem comprometer
+a main, permitindo ainda o merge ao fim das alterações.
+
+Uma vez que instalado e configurado, as principais linhas de comando são:
+
+git mkdir
+para criar um novo repositório local;
+
+git init
+para iniciar o repositório local;
+
+git clone url
+para clonar um repositório remoto;
+
+git pull 
+para atualizar o projeto local conforme o repositório remoto;
+
+git add .
+para adicionar ao stage as alterações realizadas no projeto local;
+
+git commit -m "mensagem sobre as alterações"
+para informar quais alterações foram feitas e prepará-las para atualização do repositório remoto;
+
+git push origin main 
+ou 
+git push origin branch
+para envio das alterações realizadas ao repositório remoto;
+
+git status
+para verificar o status da árvore;
+
+cd
+entrar na pasta;
+
+ls
+listar o conteúdo de uma pasta;
+
